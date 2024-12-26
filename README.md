@@ -24,7 +24,7 @@ To write a program to find the LU Decomposition of a matrix.
    A: A square matrix (coefficient matrix).
    b: A vector (right-hand side of the linear equations).
 3. Convert the inputs into NumPy arrays for numerical operations.
-4. : Use the lu_factor function from scipy.linalg to compute the LU decomposition of matrix A. This returns:
+4. Use the lu_factor function from scipy.linalg to compute the LU decomposition of matrix A. This returns:
    lu: Combined LU decomposition.
    piv: Pivot indices.
 5. Use lu_solve with the LU decomposition (lu, piv) and vector b to compute the solution vector x.
