@@ -20,7 +20,9 @@ To write a program to find the LU Decomposition of a matrix.
 
 1. Define the package as scipy.linalg import lu.
 2. Take two inputs from the user:
+
 A: A square matrix (coefficient matrix).
+
 b: A vector (right-hand side of the linear equations).
 3. Convert the inputs into NumPy arrays for numerical operations.
 4. : Use the lu_factor function from scipy.linalg to compute the LU decomposition of matrix A. This returns:
